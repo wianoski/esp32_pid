@@ -1,0 +1,28 @@
+
+{
+  "In" : {
+    "val" : {{ s.inputState->value }},
+    "i1" : {{ s.inputState->input1 }},
+    "i2" : {{ s.inputState->input2 }},
+    "r" : {{ s.inputState->useRedundantSensor }},
+    "e" : {{ s.inputState->error }},
+    "a" : {{ s.inputState->useAverage }}
+  }, 
+  "SP" : {{ s._settings->SetPoint }},
+  "D" : {{ s._settings->PidDirection }},
+  "Md" : {{ s._settings->OperatingMode }},
+  "O" : {{ s._pidState->PidOutputSum }},
+  "P" : {{ s._pidState->PidOutputP }},
+  "I" : {{ s._pidState->PidOutputI }},
+  "D" : {{ s._pidState->PidOutputD }},
+  "Pr" : {{ s._pidState->UsePrimaryPID }},
+  "Mn" : {{ s._pidState->ManualOutput }}
+}
+
+
+
+
+
+
+
+ 
